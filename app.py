@@ -12,6 +12,11 @@ def hello_world():  # put application's code here
 def new_func():
     return "New func"
 
+@app.route('/new2')
+def new_func2():
+    return "New func2"
+
+
 
 if __name__ == '__main__':
     app.run()
